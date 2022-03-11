@@ -1,17 +1,24 @@
-# social-network
-API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. 
+# Social Network
+  [![project-languages-used](https://img.shields.io/github/languages/count/katiechurchwell/social-network?color=important)](https://github.com/katiechurchwell/social-network)
+  [![project-top-language](https://img.shields.io/github/languages/top/katiechurchwell/social-network?color=blueviolet)](https://github.com/katiechurchwell/social-network)
+
+
+## Summary
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat&logo=mongodb&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=flat&logo=express&logoColor=%2361DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript_ES6-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)
+
+API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.
+
+## Deployment
+
+
+## Demo/Screenshot
+
+## Questions
+  If you have any questions about this project, please open an issue or use the contact information below:
+  * [katiechurchwell](https://www.github.com/katiechurchwell)
+  * [churchwellcatherine@gmail.com](mailto:churchwellcatherine@gmail.com)
 
 ---
-GIVEN a social network API
-WHEN I enter the command to invoke the application
-THEN my server is started and the Mongoose models are synced to the MongoDB database
-- friends, users, reactions, thoughts
-
-WHEN I open API GET routes in Insomnia Core for users and thoughts
-THEN the data for each of these routes is displayed in a formatted JSON
-
-WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
-THEN I am able to successfully create, update, and delete users and thoughts in my database
-
-WHEN I test API POST and DELETE routes in Insomnia Core
-THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
+  ![](https://img.shields.io/badge/license-MIT-blue)
