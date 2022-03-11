@@ -36,7 +36,6 @@ const ThoughtSchema = new Schema(
       get: (createdAtVal) => dateFormat(createdAtVal),
     },
     userName: {
-      //user that created this thought
       type: String,
       required: true,
     },
