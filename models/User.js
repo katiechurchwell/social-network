@@ -32,12 +32,12 @@ const UserSchema = new Schema(
 
 // get total count of thoughts and reactions on retrieval
 // friend count as virtual?
-UserSchema.virtual('friendCount').get(function () {
-  return this.friends.reduce(
-    (total, friends) => total + friends.length + 1,
-    0
-  );
-});
+// UserSchema.virtual('friendCount').get(function () {
+//   return this.friends.reduce(
+//     (total, friends) => total + friends.length + 1,
+//     0
+//   );
+// });
 
 const User = model('User', UserSchema);
 module.exports = User;
