@@ -12,14 +12,12 @@ const UserSchema = new Schema(
       type: String,
       unique: true,
       required: true,
-      match: [/.+\@.+\..+/, 'Please fill a valid email address']
+      match: [/.+\@.+\..+/, 'Please fill a valid email address'],
     },
-    thoughts: {
-      //array of _id values referencing the thought model
-    },
-    friends: {
-      //array of _id values referencing the user model (self-reference)
-    }
+    //array of _id values referencing the thought mode
+    thoughts: [],
+    //array of _id values referencing the user model (self-reference)
+    friends: [],
   },
   {
     toJSON: {
@@ -30,14 +28,10 @@ const UserSchema = new Schema(
   }
 );
 
-// get total count of thoughts and reactions on retrieval
-// friend count as virtual?
-// UserSchema.virtual('friendCount').get(function () {
-//   return this.friends.reduce(
-//     (total, friends) => total + friends.length + 1,
-//     0
-//   );
-// });
+//Create a virtual called friendCount that retrieves the length of the user's friends array field on query.
+UserSchema.virtual('friendCount').get(function () {
+  return this.friends.reduce((total, friends) => total + friends.length + 1, 0);
+});
 
 const User = model('User', UserSchema);
 module.exports = User;

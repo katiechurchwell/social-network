@@ -1,7 +1,7 @@
 # API Routes
 ## /api/users
 <!-- DONE - GET all users -->
-GET a single user by its _id and >>> populated thought and friend data
+(can't test right now) GET a single user by its _id and >>> populated thought and friend data
 <!-- DONE - POST a new user
 DONE - PUT to update a user by its _id
 DONE: DELETE to remove user by its _id -->
