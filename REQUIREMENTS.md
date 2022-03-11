@@ -1,7 +1,7 @@
 # API Routes
 ## /api/users
 <!-- DONE - GET all users -->
-(can't test right now) GET a single user by its _id and >>> populated thought and friend data
+GET a single user by its _id and populated thought and friend data
 <!-- DONE - POST a new user
 DONE - PUT to update a user by its _id
 DONE: DELETE to remove user by its _id -->
@@ -12,8 +12,8 @@ POST to add a new friend to a user's friend list
 DELETE to remove a friend from a user's friend list
 
 ## /api/thoughts
-GET to get all thoughts
-GET to get a single thought by its _id
+<!-- DONE GET to get all thoughts -->
+<!-- DONE GET to get a single thought by its _id -->
 POST to create a new thought (don't forget to push the created thought's _id to the associated user's thoughts array field)
 example data
 {
