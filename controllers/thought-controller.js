@@ -52,6 +52,7 @@ const thoughtController = {
           res.status(404).json({ message: 'No thought found with this id!' });
           return;
         }
+
         // find the thought and remove it
         return User.findOneAndUpdate(
           { thoughts: params.thoughtId },
