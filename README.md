@@ -2,17 +2,12 @@
   [![project-languages-used](https://img.shields.io/github/languages/count/katiechurchwell/social-network?color=important)](https://github.com/katiechurchwell/social-network)
   [![project-top-language](https://img.shields.io/github/languages/top/katiechurchwell/social-network?color=blueviolet)](https://github.com/katiechurchwell/social-network)
 
-
 ## Summary
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat&logo=mongodb&logoColor=white)
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=flat&logo=express&logoColor=%2361DAFB)
 ![JavaScript](https://img.shields.io/badge/JavaScript_ES6-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)
 
 API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.
-
-## Deployment
-
-
 ## Demo/Screenshot
 
 ## Questions
