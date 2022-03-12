@@ -60,8 +60,8 @@ const thoughtController = {
           { new: true }
         );
       })
-      .then((thoughts) => {
-        res.json(thoughts);
+      .then(() => {
+        res.json({ message: 'Thought removed!'});
       })
       .catch((err) => {
         console.log(err);
