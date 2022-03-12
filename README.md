@@ -9,6 +9,7 @@
 
 API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.
 ## Demo/Screenshot
+[Link to video walk-through of Insomnia routes](./Social-Network-Demo.mp4)
 
 ## Questions
   If you have any questions about this project, please open an issue or use the contact information below:
